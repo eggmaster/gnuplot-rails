@@ -1,0 +1,783 @@
+
+
+Processing ApplicationController#data (for 127.0.0.1 at 2010-04-08 10:38:20) [GET]
+
+NameError (uninitialized constant GnuplotController::Gnuplot):
+  app/controllers/gnuplot_controller.rb:3
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-08 11:30:49) [GET]
+Rendering gnuplot/data
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-08 11:32:54) [GET]
+Rendering gnuplot/svg
+Completed in 251ms (View: 6, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing ApplicationController#svg (for 127.0.0.1 at 2010-04-08 11:49:45) [GET]
+
+SyntaxError (/home/slinaber/github/gnuplot-rails/app/controllers/gnuplot_controller.rb:7: syntax error, unexpected kDO, expecting kEND
+    "" do |gp|
+         ^
+/home/slinaber/github/gnuplot-rails/app/controllers/gnuplot_controller.rb:29: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-08 11:58:01) [GET]
+
+NoMethodError (undefined method `STDOUT' for #<GnuplotController:0x7fe02150c0e0>):
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (79.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-08 12:00:09) [GET]
+Rendering gnuplot/svg
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-08 12:00:40) [GET]
+Rendering gnuplot/svg
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 10:24:41) [GET]
+Rendering gnuplot/svg
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 10:25:34) [GET]
+Rendering gnuplot/svg
+Completed in 68ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 10:25:49) [GET]
+Rendering gnuplot/svg
+Completed in 74ms (View: 10, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 10:26:08) [GET]
+Rendering gnuplot/svg
+Completed in 65ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 10:30:59) [GET]
+Rendering gnuplot/svg
+Completed in 65ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 10:57:50) [GET]
+Rendering gnuplot/svg
+Completed in 65ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:06:46) [GET]
+
+LocalJumpError (no block given):
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (88.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:32:01) [GET]
+
+NoMethodError (undefined method `read_noblock' for #<IO:0x7f207b159ad0>):
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:32:20) [GET]
+
+TypeError (no implicit conversion from nil to integer):
+  app/controllers/gnuplot_controller.rb:21:in `read_nonblock'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (36.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:32:44) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:35:01) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (36.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:35:53) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:37:13) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (92.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:37:24) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:37:57) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (92.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:40:47) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:21:in `read'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (36.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 11:42:49) [GET]
+
+IOError (not opened for reading):
+  app/controllers/gnuplot_controller.rb:8:in `read'
+  app/controllers/gnuplot_controller.rb:8:in `svg'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `popen'
+  gnuplot (2.2) lib/gnuplot.rb:59:in `open'
+  app/controllers/gnuplot_controller.rb:7:in `svg'
+
+Rendered rescues/_trace (104.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:06:45) [GET]
+
+NameError (uninitialized constant GnuplotController::O_RDWR):
+  app/controllers/gnuplot_controller.rb:7:in `gnuplot_open'
+  app/controllers/gnuplot_controller.rb:12:in `svg'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:07:26) [GET]
+Rendering gnuplot/svg
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:08:22) [GET]
+Rendering gnuplot/svg
+
+ActionView::TemplateError (undefined local variable or method `buf' for #<ActionView::Base:0x7f92c26c56b8>) on line #1 of app/views/gnuplot/svg.html.erb:
+1: <%= buf %>
+
+    app/views/gnuplot/svg.html.erb:1
+
+Rendered rescues/_trace (107.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:09:41) [GET]
+Rendering gnuplot/svg
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:10:21) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:13:48) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:17:33) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:18:05) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:18:48) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:21:26) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:22:13) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:22:27) [GET]
+Rendering gnuplot/svg
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:39:43) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:40:21) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:52:36) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:56:00) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:57:54) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 14:58:18) [GET]
+Rendering gnuplot/svg
+Completed in 65ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:03:41) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:05:05) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:05:05) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:10:29) [GET]
+Rendering gnuplot/svg
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:15:00) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:16:02) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:16:13) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:16:14) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:16:14) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:27:33) [GET]
+Rendering gnuplot/svg
+Completed in 56ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:28:05) [GET]
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:28:20) [GET]
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:28:36) [GET]
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:29:06) [GET]
+
+NoMethodError (undefined method `pharts' for #<GnuplotController:0x7f2c7c9c3a60>):
+  app/controllers/gnuplot_controller.rb:15:in `gnuplot_open'
+  app/controllers/gnuplot_controller.rb:21:in `svg'
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:29:28) [GET]
+Rendering gnuplot/svg
+Completed in 16ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:30:20) [GET]
+Rendering gnuplot/svg
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:31:23) [GET]
+Rendering gnuplot/svg
+Completed in 20ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:31:57) [GET]
+Rendering gnuplot/svg
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:49:07) [GET]
+Rendering gnuplot/svg
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:50:50) [GET]
+Rendering gnuplot/svg
+Completed in 20ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:51:13) [GET]
+Rendering gnuplot/svg
+Completed in 16ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:54:02) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:54:44) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:55:25) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 15:59:59) [GET]
+Rendering gnuplot/svg
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:00:37) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:00:44) [GET]
+Rendering gnuplot/svg
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:00:45) [GET]
+Rendering gnuplot/svg
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:14:53) [GET]
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:17:52) [GET]
+Rendering gnuplot/data
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:17:52) [GET]
+Rendering gnuplot/svg
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:36:50) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:36:50) [GET]
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:37:04) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:37:05) [GET]
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing GnuplotController#svg (for 127.0.0.1 at 2010-04-09 16:37:37) [GET]
+Rendering gnuplot/svg
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-09 16:37:40) [GET]
+
+ActionController::RoutingError (No route matches "/gnuplot/svg.svg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:39:01) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionView::MissingTemplate (Missing template gnuplot/svg.erb in view path app/views):
+  app/controllers/gnuplot_controller.rb:46:in `svg'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:39:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 25ms (View: 8, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:40:15) [GET]
+Rendering gnuplot/data
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:40:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:40:56) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:40:56) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:40:59) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:40:59) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:41:01) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:41:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:41:07) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:41:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:41:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:42:47) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:42:47) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:42:49) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:42:49) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:42:49) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:42:49) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 68ms (View: 51, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:42:51) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:42:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 16ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:43:00) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:43:00) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 15ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:43:01) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:43:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:43:03) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:43:04) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#data (for 127.0.0.1 at 2010-04-09 16:43:05) [GET]
+Rendering gnuplot/data
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/data]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:43:05) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-09 16:45:35) [GET]
+
+ActionController::RoutingError (No route matches "/gnuplot/svg.svg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:45:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:45:41) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 20ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:45:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-09 16:45:43) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 16ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#chart (for 127.0.0.1 at 2010-04-12 08:50:36) [GET]
+Rendering gnuplot/chart
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/gnuplot/chart]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-12 08:50:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#chart (for 127.0.0.1 at 2010-04-12 09:04:15) [GET]
+Rendering gnuplot/chart
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/chart]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-12 09:04:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#chart (for 127.0.0.1 at 2010-04-12 09:07:06) [GET]
+Rendering gnuplot/chart
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/chart]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-12 09:07:06) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 19ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
+
+
+Processing GnuplotController#chart (for 127.0.0.1 at 2010-04-12 09:07:19) [GET]
+Rendering gnuplot/chart
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/chart]
+
+
+Processing GnuplotController#svg to svg (for 127.0.0.1 at 2010-04-12 09:07:19) [GET]
+  Parameters: {"id"=>"1"}
+Rendering gnuplot/svg
+Completed in 18ms (View: 1, DB: 0) | 200 OK [http://localhost/gnuplot/svg/1.svg]
